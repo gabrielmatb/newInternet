@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+body{
+    font-family: 'Nunito';
+    color: white;
+    background: url('../Imagens/conexao.jpg');
+    background-size: cover;
+}
