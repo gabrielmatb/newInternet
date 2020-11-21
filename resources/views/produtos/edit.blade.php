@@ -23,11 +23,11 @@
         </div>
         <div class="input-field col s8">
             <label for="">Preço</label> <br />
-            <input type="number" name="preco" value="{{ $produto->preco }}" min=1 max=100000000000 required> <br />
+            <input type="number" name="preco" value="{{ $produto->preco }}" min=1 max=100000000000 step="0.010" required> <br />
         </div>
         <div class="input-field col s8">
             <label for="">Quantidade</label> <br />
-            <input type="number" name="quantidade" value="{{ $produto->quantidade }}" min=1 max=9999999 required> <br />
+            <input type="number" name="quantidade" value="{{ $produto->quantidade }}" min=1 max=9999999 step="0.010" required> <br />
         </div>
 
         <div class="input-field col s8">
